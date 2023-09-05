@@ -1,0 +1,28 @@
+node_modules/
+.expo/
+.idea/
+*.sublime*
+.vscode
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.publish
+
+public/
+
+
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы упаковщиков и мусор
+*.rar
+*.zip
+~$CUMENTATION.docx
+~$option-tassks.xlsx
