@@ -1,30 +1,39 @@
 .ring-emerald{
 	display: block;
-	margin-top: 50px;
+	margin-top: 45px;
 
-	@include media-desctop{
+	@include media-tab{
+		margin: 50px 6% 0;
+	}
+
+	@include media-tablet{
 		display: flex;
 		align-items: center;
 
-		margin-top: 10px;
+		margin: 45px auto 0;
 	}
 }
 .ring-emerald-container{
 	display: block;
 
-	margin: 30px 20px 0;
+	margin: 40px 20px 0;
 
-	@include media-desctop{
-		width: 710px;
+	@include media-tablet{
+		width: 70%;
 
 		margin: 0;
-		padding: 20px 50px 10px;
+		padding: 20px 20px 10px;
+	}
+
+	@include media-desctop{
+		padding: 10px 50px 10px;
+		width: 50%;
 	}
 }
 .ring-emerald-block{
 	display: block;
 
-	@include media-desctop{
+	@include media-tablet{
 		flex-grow: 1;
 	}
 }
@@ -34,6 +43,6 @@
 
 .ring-emerald__text{
 	@include text-reset;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }

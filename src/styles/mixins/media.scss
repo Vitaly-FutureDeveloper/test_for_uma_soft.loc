@@ -4,6 +4,12 @@
 	}
 }
 
+@mixin media-tab {
+	@media (min-width: $mediaWidthTab){
+		@content;
+	}
+}
+
 @mixin media-tablet {
 	@media (min-width: $mediaWidthTablet){
 		@content;

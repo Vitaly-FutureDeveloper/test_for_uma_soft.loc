@@ -1,6 +1,13 @@
 .garmony-water{
 	margin: 100px 20px 0;
 
+	@include media-tab{
+		margin: 100px 6% 0;
+	}
+
+	@include media-tablet{
+		margin: 100px auto 0;
+	}
 	@include media-desctop{
 		margin: 100px auto 0;
 	}

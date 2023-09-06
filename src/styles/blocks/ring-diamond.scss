@@ -2,32 +2,55 @@
 	display: block;
 	margin-top: 100px;
 
-	@include media-desctop{
+	@include media-tab{
+		margin: 100px 6% 0;
+	}
+
+	@include media-tablet{
 		display: flex;
 		align-items: center;
 
-		margin-top: 10px;
+		margin: 5px auto 0;
 	}
 }
 .ring-diamond-container{
 	display: block;
-	margin: 0 20px;
+	margin: 40px 20px 0;
 
-	@include media-desctop{
-		width: 710px;
+	@include media-tab{
+		margin: 40px 20px 0;
+	}
+
+	@include media-tablet{
+		width: 70%;
 
 		margin: 0;
-		padding: 0 50px 10px;
+		padding: 0 30px 10px;
+	}
+
+	@include media-desctop{
+		padding: 40px 50px 10px;
+		width: 50%;
 	}
 }
 .ring-diamond-block{
 	display: block;
-	margin-top: 55px;
+	margin-top: 50px;
+
+	@include media-tablet{
+		flex-grow: 1;
+	}
 
 	@include media-desctop{
-		flex-grow: 1;
+		margin-top: 30px;
 	}
 }
 .ring-diamond__title{
 	@include text-reset;
+}
+
+.ring-diamond__text{
+	@include text-reset;
+	margin-top: 11px;
+	margin-bottom: 11px;
 }

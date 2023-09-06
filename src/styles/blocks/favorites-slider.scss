@@ -1,5 +1,13 @@
 .favorites-slider{
-	margin: 95px 20px 0;
+	margin: 100px 20px 0;
+
+	@include media-tab{
+		margin: 100px 40px 0;
+	}
+
+	@include media-desctop{
+		margin: 40px auto 0;
+	}
 }
 
 .favorites-slider__title{
@@ -85,9 +93,17 @@
 
 .favorites-slider__btn-left{
 	left: -15px;
+
+	@include media-tablet{
+		left: -25px;
+	}
 }
 .favorites-slider__btn-right{
 	right: -15px;
 	transform: translateY(-50%) rotateZ(180deg);
 	order: 1;
+
+	@include media-tablet{
+		right: -25px;
+	}
 }
