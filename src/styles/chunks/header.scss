@@ -1,5 +1,15 @@
+@keyframes opacity-animation {
+	0%{
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 .header{
+	animation: opacity-animation 1s;
 	display: flex;
 	margin-top: 50px;
-
 }
