@@ -34,12 +34,13 @@ const watcher = (done) => {
 	gulp.watch(path.scripts.watch, scripts).on("all", browserSync.reload);
 
 	gulp.watch(path.img.watch, img).on("all", browserSync.reload);
+	gulp.watch(path.fonts.watch, fonts).on("all", browserSync.reload);
 
 	return done();
 };
 
 const build = (done) => {
-	run(gulp.series(clear, gulp.parallel(fonts, html, styles, scripts, img, favicon)), done);
+	run(gulp.series(clear, gulp.parallel(html, fonts, styles, scripts, img, favicon)), done);
 };
 const dev = gulp.series(
 	build,

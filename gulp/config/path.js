@@ -21,6 +21,7 @@ export default {
 
 	fonts: {
 		src: pathSrc + "/styles/fonts/*.{woff,woff2,ttf,otf}",
+		watch: pathSrc + "/styles/fonts/*.{woff,woff2,ttf,otf}",
 		dest: pathDest + "/styles/fonts",
 	},
 
