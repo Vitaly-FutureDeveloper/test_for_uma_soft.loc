@@ -1,0 +1,38 @@
+.ring-emerald{
+	display: block;
+	margin-top: 50px;
+
+	@include media-desctop{
+		display: flex;
+		align-items: center;
+
+		margin-top: 10px;
+	}
+}
+.ring-emerald-container{
+	display: block;
+	margin: 30px 20px 0;
+
+	@include media-desctop{
+		width: 710px;
+
+		margin: 0;
+		padding: 20px 50px 10px;
+	}
+}
+.ring-emerald-block{
+	display: block;
+
+	@include media-desctop{
+		flex-grow: 1;
+	}
+}
+.ring-emerald__title{
+	@include text-reset;
+}
+
+.ring-emerald__text{
+	@include text-reset;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

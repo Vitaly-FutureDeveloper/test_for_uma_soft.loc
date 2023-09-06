@@ -4,7 +4,22 @@
 
 @import "mixins/text-reset";
 @import "mixins/no-list-style";
+@import "mixins/media";
 
 @import "utils/global";
+
+
+@import "chunks/header";
+
+@import "blocks/excerption";
+@import "blocks/banner";
+@import "blocks/notation";
+@import "blocks/garmony-water";
+@import "blocks/new-jewelry";
+@import "blocks/ring-diamond";
+@import "blocks/ring-emerald";
+@import "blocks/favorites-slider";
+
+@import "chunks/footer";
 
 

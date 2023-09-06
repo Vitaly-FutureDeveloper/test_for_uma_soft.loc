@@ -1,0 +1,30 @@
+.new-jewelry{
+	display: block;
+	margin-top: 50px;
+
+	@include media-desctop{
+		display: flex;
+		align-items: center;
+	}
+}
+.new-jewelry-container{
+	display: block;
+	margin: 40px 20px 0;
+
+	@include media-desctop{
+		width: 710px;
+
+		margin: 0;
+		padding: 0 50px 10px;
+	}
+}
+.new-jewelry-block{
+	display: block;
+
+	@include media-desctop{
+		flex-grow: 1;
+	}
+}
+.new-jewelry__title{
+	@include text-reset;
+}

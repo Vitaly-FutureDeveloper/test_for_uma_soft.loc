@@ -40,7 +40,7 @@ const watcher = (done) => {
 };
 
 const build = (done) => {
-	run(gulp.series(clear, gulp.parallel(html, fonts, styles, scripts, img, favicon)), done);
+	run(gulp.series(clear, fonts, gulp.parallel(html, styles, scripts, img, favicon)), done);
 };
 const dev = gulp.series(
 	build,
