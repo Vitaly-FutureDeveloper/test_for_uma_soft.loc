@@ -15,12 +15,12 @@ export const favoriteSlider = (sectionClass) => {
 
 		media: true,
 		media_widths: [
-			{
-				width: 1420,
-				STEP_SLIDES: 4,
-				CHANGE_SLIDES: 4, // @number Сколько слайдов переключать
-				FIRST_SLIDE: 0,
-			},
+			// {
+			// 	width: 1420,
+			// 	STEP_SLIDES: 4,
+			// 	CHANGE_SLIDES: 4, // @number Сколько слайдов переключать
+			// 	FIRST_SLIDE: 0,
+			// },
 			{
 				width: 920,
 				STEP_SLIDES: 3,
@@ -55,22 +55,13 @@ export const favoriteSlider = (sectionClass) => {
 		eventSlide: true, // Переключение слайдов по клику на слайд
 		slide_class: 'favorites-slider-list__item', // Если переключаем по кликам на слайдер - задаём класс
 
-		// dotsWrap: '.slider-rewiews__dots-down', // Кнопочки
-		// dots: '.slider-rewiews__dot', // Селектор кнопочки
-		// dot_class: 'slider-rewiews__dot', // Класс кнопочки для проверки при делигировании
-		// dot_active_class: 'dot--active',
-
 		btnsWrap: '.slider-btns-block', //
 		btnMinus: '.js-favorites-slider__btn-left', //
 		btnPlus: '.js-favorites-slider__btn-right', //
 
-		//countSlideElement: '', // Куда выводить цифру номера слайда
 
 		isActivations: true,
 		activations: {
-			// slidePrev: '',
-			// slideActive: '--active',
-			// slideNext: '',
 		},
 	});
 };

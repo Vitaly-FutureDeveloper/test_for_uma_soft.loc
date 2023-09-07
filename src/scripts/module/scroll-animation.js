@@ -3,6 +3,7 @@ import {Skroll} from "../base/scroll.js";
 export const SkrollAnimation = new Skroll()
 	.add("h2",{
 		animation: "zoomIn",
+		delay: 200,
 		duration: 600
 	})
 	.add(".js-anim-left",{

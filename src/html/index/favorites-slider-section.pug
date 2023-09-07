@@ -1,3 +1,5 @@
+- var nameRing = ["Кольцо лотос", "Кольцо лотос", "Кольцо лотос", "Кольцо рубоновый микс", "Кольцо лотос", "Кольцо лотос"];
+
 section.favorites-slider
 	h2.favorites-slider__title ИЗБРАННЫЕ УКРАШЕНИЯ
 
@@ -15,3 +17,4 @@ section.favorites-slider
 							source(type="image/webp" srcset="assets/img/Ring-slider2x.webp 2x, assets/img/Ring-slider1x.webp 1x")
 							source(srcset="assets/img/Ring-slider2x.png 2x, assets/img/Ring-slider1x.png 1x")
 							img(src="assets/img/Ring-slider1x.png" alt="")
+						p.favorites-slider-list__text #{nameRing[li] ? nameRing[li] : "Кольцо лотос"}
